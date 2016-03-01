@@ -55,7 +55,9 @@ a:hover
 .container
 {
 	margin: 0px auto;
-	width: 1200px;
+	min-width: 300px;
+	max-width: 1200px;
+	padding: 0px 1.25em;
 }
 
 /*********************************************************************************/
@@ -105,18 +107,19 @@ a:hover
 	ul.style1
 {
 	margin: 0;
-	padding: 0em 0em 0em 0em;
-	overflow: hidden;
-	list-style: none;
-	color: #6c6c6c
+	padding: 0em 0em 0em 1.125em;
+	color: #6c6c6c;
+	list-style-type: circle;
 }
 
 ul.style1 li
 {
-	overflow: hidden;
 	display: block;
-	padding: 2.80em 0em;
-	border-top: 1px solid #D1CFCE;
+	padding: 0em 0em 0em 1.125em;
+	list-style-type: circle;
+	list-style-position: outside;
+	display: list-item;
+
 }
 
 ul.style1 li:first-child
@@ -203,8 +206,6 @@ ul.style3 li
 	padding: 1em 0 1em 0;
 	font-family: 0.80em;
 }
-
-ul.circle, ul.circle > li { list-style-type: circle; }
 
 ul.style3 li:before
 {
@@ -411,14 +412,6 @@ ul.contact li a.icon-rss:before
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
-
-#menu
-{
-	position: absolute;
-	right: 0;
-	top: 2em;
-}
-
 #menu ul
 {
 	display: inline-block;
@@ -515,7 +508,7 @@ ul.contact li a.icon-rss:before
 #page
 {
 	overflow: hidden;
-	padding: 2em 0em;
+	padding: 2em 1.25em;
 	border-bottom: 2px solid #E3E3E3;
 }
 
