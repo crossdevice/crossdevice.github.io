@@ -314,6 +314,7 @@ ul.contact li a.icon-rss:before
 {
 	display: inline-block;
 	padding: 1.3em 3em;
+	margin: 0.2em;
 	background: #DB3256;
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
@@ -370,7 +371,7 @@ ul.contact li a.icon-rss:before
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
-	
+
 #header-wrapper
 {
 	background: #FFF;
@@ -455,7 +456,7 @@ ul.contact li a.icon-rss:before
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
-	
+
 	#banner-wrapper
 {
 	overflow: hidden;
@@ -860,6 +861,3 @@ ul.contact li a.icon-rss:before
 	font-size: 1.2em;
 	color: #A2A2A2;
 }
-
-
-
